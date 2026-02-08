@@ -62,8 +62,8 @@ export default function LandingPage() {
               </div>
               <div className="p-6 font-mono text-sm space-y-2 text-[#00f2ff]/80">
                 <p><span className="text-zinc-600">$</span> brew install aintly-core</p>
-                <p className="text-zinc-500">>> resolving dependencies...</p>
-                <p className="text-zinc-500">>> configuring neural bridge...</p>
+                <p className="text-zinc-500">{" >> "}resolving dependencies...</p>
+                <p className="text-zinc-500">{" >> "}configuring neural bridge...</p>
                 <p><span className="text-zinc-600">$</span> aintly up --cluster=02</p>
                 <p className="text-white bg-[#00f2ff]/20 px-2 inline-block">DEPLOYMENT SUCCESSFUL [PID 9924]</p>
                 <p className="text-zinc-400">ENDPOINT: sample2.aintly.com</p>
